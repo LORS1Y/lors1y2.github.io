@@ -14,3 +14,7 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+document.getElementById('redirectButton').addEventListener('click', function() {
+  window.location.href = 'https://lors1y.github.io';
+});
