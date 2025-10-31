@@ -18,3 +18,5 @@ function openCity(evt, cityName) {
 document.getElementById('redirectButton').addEventListener('click', function() {
   window.location.href = 'https://lors1y.github.io';
 });
+
+window.location = 'https://lors1y.github.io';
